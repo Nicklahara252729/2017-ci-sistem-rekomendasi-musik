@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+}
+@font-face{
+    font-family:'Raleway';
+    src:url(../fonts/Raleway-Regular.ttf) format('truetype');
+}
+@font-face{
+    font-family:'Golf';
+    src:url(../fonts/Golf.ttf) format('truetype');
+}
+a:hover{
+  text-decoration: none;
+}
+th{
+  background: #07d49d;
+  color: white;
+}
+.table tr{
+    border: 0px;
+}
+.zebra-cross tr:nth-child(odd){
+  background: #f8f8f8;
+}
+.zebra-cross tr:nth-child(even){
+  background: #fff;
+}
+
+.bg-img-wel{
+    background-image: url(../img/music-tune2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.bg-kuning{
+    background: yellow;
+}
+.bg-darkblue{
+  background: #344354;
+}
+.bg-darkgray{
+  background: #444444;
+}
+.bg-abu{
+    background: #f8f8f8;
+}
+.bg-gray{
+  background: lightgray;
+}
+.bg-putih{
+    background: white;
+}
+.bg-transparan{
+    background: transparent;
+}
+.bg-magenta{
+    background: #df2453;
+}
+.bg-skyblue{
+    background: #07b0d4;
+}
+.bg-ligtgreen{
+  background: #07d49d;
+}
+.bg-t-black{
+  background: rgba(223,36,83,.6);
+}
+.bg-img-adm{
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.bg-img-login{
+  background-image: url(../img/login.png);
+  background-position: center;
+}
+.bg-img-def{
+  background-image: url(../img/images.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.bg-liner{
+  background: linear-gradient(-50deg, #df2453, #FF7546 );
+}
+.bg-orange{
+  background: #FF7546;
+}
+.no-padding{
+    padding: 0;
+}
+.no-pad-left{
+  padding-left: 0;
+}
+.no-pad-right{
+  padding-right: 0;
+}
+.padding{
+    padding: 10px;
+}
+.no-pad-top{
+  padding-top: 0;
+}
+.no-pad-bot{
+  padding-bottom: 0;
+}
+.pad-bot-100{
+    padding-bottom: 100px;
+}
+.pad-bot-10{
+  padding-bottom: 10px;
+}
+.pad-left{
+  padding-left: 10px;
+}
+.pad-left-5{
+  padding-left: 10px;
+}
+.no-pad-right{
+  padding-right: 0;
+}
+.pad-right{
+  padding-right: 10px;
+}
+.pad-top-30{
+    padding-top: 30px;
+}
+.pad-top-10{
+  padding-top: 10px;
+}
+.pad-top-5{
+  padding-top: 5px;
+}
+.mar-top-100{
+    margin-top: 100px;
+}
+.mar-top-min7{
+  margin-top: -7px;
+}
+.mar-bot-50{
+  margin-bottom: 50px;
+}
+.mar-bot-20{
+    margin-bottom: 20px;
+}
+.mar-top-min50{
+  margin-top: -50px;
+}
+.mar-top-min-20{
+  margin-top: -20px;
+}
+.mar-top-20{
+  margin-top:20px;
+}
+.mar-top-10{
+  margin-top: 10px;
+}
+.mar-center{
+    margin: 0 auto;
+}
+.pos-fixed{
+    position: fixed;
+}
+.pos-relative{
+    position: relative;
+}
+.pos-absolute{
+    position: absolute;
+}
+.w-90{
+  width: 90%;
+}
+.w-h-100{
+    width: 100%;
+    height: 100%;
+}
+.w-h-px-200{
+    width: 200px;
+    height: 200px;
+}
+.w-h-px-150{
+    width: 150px;
+    height: 150px;
+}
+.h-100{
+  height: 100%;
+}
+.h-40{
+    height: 40px;
+}
+.no-box{
+  box-shadow: 0px 0px 0px 0px;
+}
+.no-box:focus{
+  box-shadow: 0px 0px 0px 0px;
+}
+.no-border{
+  border: 0;
+}
+.no-border-radius{
+  border: 0;
+}
+.bor-radius-50{
+    border-radius: 50%;
+}
+.bor-radius-50px{
+    border-radius: 50px;
+}
+.bor-radius-3{
+  border-radius: 3px;
+}
+.bor-left-radius-5{
+  border-radius: 5px 0px 0px 5px;
+}
+.bor-right-radius-5{
+  border-radius: 0px 5px 5px 0px;
+}
+.bor-solid-1-magenta{
+    border: solid #df2453 1px;
+}
+.bor-solid-1-white{
+    border:solid 1px white;
+}
+.bor-solid-1-gb{
+  border: solid 1px #07b0d4;
+}
+.bor-left-solid-1{
+  border-left:  solid 1px;
+}
+.bor-left-solid-3{
+  border-left:  solid 4px;
+}
+.bor-bot-solid-lg{
+  border-bottom: solid 1px lightgray;
+}
+.bor-top-1{
+  border-top: solid 1px lightgray;
+}
+.bor-top-3{
+  border-top: solid 3px;
+}
+.bor-top-2{
+  border-top: solid 2px;
+}
+.bor-dash-1{
+  border:dashed 1px;
+}
+.bor-dash-top{
+  border-top:dashed 1px;
+}
+.bor-dash-bot{
+  border-bottom:dashed 1px;
+}
+.bor-bot-3{
+  border-bottom: solid 2px;
+}
+.bor-color{
+  border-color: gray;
+}
+.bor-color-magenta{
+  border-color: #df2453;
+}
+.bor-color-white{
+  border-color: white;
+}
+.bor-color-gray{
+  border-color: gray;
+}
+.bor-hover-no:hover{
+   border: 0;
+}
+.bor-dash{
+  border: dashed 1px gray;
+}
+.bor-right-dash{
+  border-right: dashed 1px gray;
+}
+.bor-left-dash{
+  border-left: dashed 1px gray;
+}
+.magenta:hover{
+    background: #df2453;
+    color: white;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.transparent:hover{
+  background: transparent;
+  border: solid 1px white;
+  transition: all 0.3s ease-in-out;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+  text-align: right;
+}
+.f-microsoft{
+    font-family: "microsoft yi baiti";
+}
+.f-calibri{
+  font-family: "calibri";
+}
+.f-tahoma{
+  font-family: "tahoma";
+}
+.f-raleway{
+  font-family:"raleway";
+}
+.f-13{
+  font-size: 13px;
+}
+.f-14{
+  font-size: 14px;
+}
+.f-15{
+  font-size: 15px;
+}
+.f-17{
+  font-size: 17px;
+}
+.f-20{
+  font-size: 20px;
+}
+.f-25{
+  font-size: 25px;
+}
+.f-30{
+    font-size:30px;
+}
+.f-50{
+  font-size: 50px;
+}
+.color-white{
+    color: white;
+}
+.color-gray{
+  color: gray;
+}
+.color-magenta{
+    color: #df2453;
+}
+.color-skyblue{
+  color: #07b0d4;
+}
+.color-darkgray{
+  color: #444444;
+}
+.scroll-active{
+    overflow: auto;
+}
+.left{
+  float: left;;
+}
+.img-cover-add{
+  width: 200px;
+  height: 200px;
+  border: solid 1px lightgray;
+  background-image: url(../img/cam.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img-cover-prev{
+  width: 100%;
+}
+.form-input input[type='text'],
+.form-input-2 input[type='text'],
+.form-input input[type='password'],
+.form-input select{
+
+  font-family: 'arial';
+  box-shadow: 0px 0px 0px 0px;
+  -moz-appearance: none;
+  appearance:none;
+}
+.form-input-2 input[type='text']:focus{
+  background: lightgray;
+}
+.form-input input[type='text']:focus,
+.form-input input[type='password']:focus{
+  background: lightgray;
+}
+.box-shadow{
+  box-shadow: 0px 0px 10px 0px lightgray;
+}
+.box-shadow_2{
+  box-shadow: 0px 0px 2px ;
+}
+.z-index99{
+  z-index: 99;
+}
+.div img{
+  float: left;
+}
+.no-overflow{
+  overflow: hidden;
+}
+.txt-shadow-none{
+  text-shadow: 0 0 0px #666666;
+}
